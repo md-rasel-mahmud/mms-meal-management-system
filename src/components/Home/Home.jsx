@@ -1,10 +1,13 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar';
+import { Outlet } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div>
-            <h2 className='text-center text-red-500'> home</h2>
-        </div>
+        <>
+            <Navbar/>
+            <Outlet/>   
+        </>
     );
 };
 
