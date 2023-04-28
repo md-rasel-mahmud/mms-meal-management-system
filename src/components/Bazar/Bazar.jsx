@@ -1,9 +1,10 @@
 import React from 'react';
+import BazarLayout from '../BazarLayout/BazarLayout';
 
 const Bazar = () => {
     return (
         <div>
-            <h2>Bazar coming soon</h2>
+            <BazarLayout/>
         </div>
     );
 };
