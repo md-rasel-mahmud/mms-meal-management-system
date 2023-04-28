@@ -13,9 +13,9 @@ const Banner = () => {
                 <Lottie animationData={mealAnimation} loop={true} />
 
                 <div className='w-1/2'>
-                    <h1 className="text-5xl w-3/4 font-bold">Meal Management System!</h1>
+                    <h1 className="text-5xl w-3/4 font-bold">Meal Management <span className='text-primary'>System</span>!</h1>
                     <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button className="btn btn-primary">Get Started</button>
+                    <button className="btn btn-primary btn-outline">Get Started</button>
                 </div>
             </div>
         </div>
